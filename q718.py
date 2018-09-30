@@ -18,5 +18,3 @@ class Solution(object):
                 if A[i - 1] == B[j - 1]:
                     dp[i][j] = dp[i - 1][j - 1] + 1
         return max(max(row) for row in dp)
-
-print(Solution().findLength([0, 0, 0, 0, 1], [1, 0, 0, 0, 0]))

@@ -29,5 +29,3 @@ class Solution:
             else:
                 right = mid
         return left
-
-print(Solution().firstBadVersion(6))
